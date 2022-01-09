@@ -1,0 +1,16 @@
+runmode: debug
+addr: :8888
+name: goserver
+url: http://127.0.0.1:8888
+max_ping_count: 10
+jwt_secret: Rtg8BPKNEf2mB4mgvKONGPZZQSaJWNLijxR42qRgq0iBb5
+read_db:
+  name: default
+  addr: mysql
+  username: default
+  password: secret
+write_db:
+  name: default
+  addr: mysql
+  username: default
+  password: secret
